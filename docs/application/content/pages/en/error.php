@@ -1,0 +1,1 @@
+<p>Requested page does not exist. Please go to <?php echo get_link($routing['default'], 'main page'); ?>.</p>

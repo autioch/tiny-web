@@ -1,0 +1,1 @@
+<p>Dzięki za wypełnienie ankiety! Możesz teraz wrócić na <?php echo get_link('', 'stronę główną') ?>.</p>

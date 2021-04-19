@@ -1,0 +1,35 @@
+%small-box{
+    float:left;   
+}
+
+#about{
+    @extend %small-box;
+    width: 60%;  
+    @media screen and (max-width:$screen-tiny){
+        width: 100%;
+        margin: 0;
+        float:none;
+    }       
+}
+
+#characters{
+    @extend %small-box;
+    width: 35%; 
+    margin-left:4%;
+    @media screen and (max-width:$screen-tiny){
+        width: 100%;
+        margin: 0;
+        float:none;
+    }       
+}
+
+.character-list{
+    margin-left: 4%;
+    @media screen and (max-width:$screen-tiny){
+        margin:0;
+    }      
+}
+.character-list-item{
+    margin: 2%;
+    display: inline-block;
+}

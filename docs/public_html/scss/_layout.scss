@@ -1,0 +1,52 @@
+html,body,img,ul{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+html{
+    background: $htmlBackground url('../images/bg.png') fixed;
+    @media (max-width: $screen-small){
+        background: $background;
+    }
+}
+
+#layout-wrapper{
+    box-shadow: 0 1px 6px $shadowWrapper;
+    width: 75%;
+    margin: 2% auto;
+    background-color: $background;
+    font-size: 14px;
+    color: $fontColor;
+    font-family: "Open Sans Regular", RegularHelvetica, Arial, sans-serif;
+    @media (min-width: $screen-large){
+        font-size: 16px;
+        width: 60%;
+    }
+    @media (max-width: $screen-medium){
+        font-size: 12px;
+        width: 85%;
+    }
+
+    @media (max-width: $screen-small){
+        width: 100%;
+        border:0;
+        margin:0; 
+        box-shadow:none;
+    }   
+}
+
+#layout-content{
+    @extend %clearfix;
+    padding: 3%;
+    padding-bottom: 0;
+
+    @media screen and (max-width: $screen-tiny){
+        padding:0 1em;
+    }         
+}
+

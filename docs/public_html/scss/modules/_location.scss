@@ -1,0 +1,23 @@
+.location-title{
+    font-size: 1em;
+    color: $fontColorHeader;
+    margin: 0;
+    @media screen and (max-width: $screen-tiny){
+        display: none;
+    }        
+}
+.location-path{
+    margin: 0;
+    @media screen and (max-width: $screen-tiny){
+        display: none;
+    }     
+}
+
+.location-arrow{
+    margin: 0 0.5em;
+}
+
+.location-link{
+    @extend %contentLink;
+    font-weight: normal;
+}

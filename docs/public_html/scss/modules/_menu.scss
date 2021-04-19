@@ -1,0 +1,56 @@
+#header-menu-container{
+    @extend %clearfix;
+    border-top: solid 1px $borderMenu;
+    border-bottom: solid 1px $borderMenu;
+}
+
+#header-menu{
+    background: $backgroundMenu;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    @include gradient-bg(rgb(180,200,255), $backgroundMenu, rgb(0,85,255));
+
+    &.header_menu_fixed{
+        position:fixed;
+        width: 75%;
+        top:0;
+    }
+    @media screen and (max-width: $screen-tiny){
+
+        display: block;
+    }
+}
+
+.menu-item{
+    display: table-cell;
+    overflow: visible;
+    position: relative;
+    border-left: solid 1px $borderMenu;
+    >.submenu{
+        display: none;
+        position: absolute;
+    }
+    @media screen and (min-width: $screen-small){
+        &:hover>.submenu{
+            display: block;
+        }
+    }
+    @media screen and (max-width: $screen-tiny){
+        @include gradient-bg(rgb(180,200,255), $backgroundMenu, rgb(0,85,255));
+        float: left;
+        width: 25%;
+        border: 0;
+    }
+    &:first-child{
+        border-left: 0;
+    }
+
+}
+
+.menu-link{
+    @extend %menuLink;
+    padding: 0.5em 0;   
+    text-align: center;
+}
+

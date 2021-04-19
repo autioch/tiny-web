@@ -1,0 +1,35 @@
+.progress-title{
+    @include border($table-border);
+    border-bottom: 0;
+    margin-top: 4%;
+}
+
+.progress-image{
+    width: 100%;
+    display: block;    
+}
+
+.encounter-icon{
+    max-width: 2em;
+    width:7%;
+    vertical-align: middle;
+    @media screen and (max-width:$screen-tiny){
+        display:none;
+    }   
+}    
+
+.encounter-title{
+    padding: 0.5%;
+    text-align: left;
+}
+
+.encounter {
+    width:10%;
+    @media screen and (max-width:$screen-tiny){
+        padding:0;
+    }     
+}
+.encounter-image{
+    max-width: 1em;
+    width:40%;    
+}

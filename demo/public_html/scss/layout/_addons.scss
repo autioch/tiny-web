@@ -1,0 +1,24 @@
+.addon-table{
+
+}
+
+.addon-name{
+    width: 27%;
+    vertical-align: top;
+}
+.addon-details, .addon-name{
+    text-align:left;
+    padding: 1%;
+}
+
+.addon-version, .addon-download{
+    width: 14%;
+    text-align:center;
+    padding: 1%;
+}
+
+.addon-details{
+    @media screen and (max-width:$screen-small){
+        display:none;
+    }
+}

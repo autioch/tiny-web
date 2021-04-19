@@ -1,0 +1,73 @@
+.recruitment-table{
+    width: 80%;
+    margin:2% auto;
+    text-align: left;
+}
+
+.recruit-pass{
+    color: $text-inactive;
+    text-decoration:line-through;
+}
+
+.recruit-icon{
+    vertical-align:middle;
+    margin: 2%;
+    &.pass{
+        opacity: 0.5;
+    }
+}
+
+#recruitment-link{
+    text-align:center;
+}
+
+.form-field{
+    margin:2% 0;
+}
+
+.form-field-label{
+    @extend .section-title;
+}
+
+.form-field-title, .form-field-field, .form-field-error{
+    display:inline-block;
+    vertical-align: top;  
+    width: 30%;
+}
+.form-field-label>.form-field-title{
+    width:100%;
+}
+
+.form-field-title, .form-field-field{
+    @media screen and (max-width:$screen-small){
+        width: 49%;
+    }   
+}
+
+.form-field-error{
+    color: $error-color;
+    @media screen and (max-width:$screen-small){
+        display:block;
+        width: 100%;
+    }
+}
+
+%form-input{
+    border: solid 1px $input-border;
+    box-sizing:content-box;
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+}
+
+.form-text, .form-textarea, .form-select{
+    @extend %form-input;
+    width: 95%;
+    padding: 1%;
+}
+
+.form-checkbox{
+    @extend %form-input;
+}
+
+

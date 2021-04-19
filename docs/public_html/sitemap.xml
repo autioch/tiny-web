@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://www.tinyweb.qb.net.pl</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/documentation/functions-html</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/documentation/functions-other</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/about</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/documentation/parts</loc>
+  <priority>0.98</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/documentation/parts</loc>
+  <priority>0.96</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/about</loc>
+  <priority>0.96</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/documentation/templates</loc>
+  <priority>0.96</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/documentation/pages</loc>
+  <priority>0.93</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/documentation/constants</loc>
+  <priority>0.93</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/documentation/functions-html</loc>
+  <priority>0.93</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/config/controllers</loc>
+  <priority>0.93</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/documentation/templates</loc>
+  <priority>0.93</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/documentation/pages</loc>
+  <priority>0.91</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/documentation/constants</loc>
+  <priority>0.91</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/documentation/functions-other</loc>
+  <priority>0.91</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/config/i18n</loc>
+  <priority>0.91</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/tutorial/config</loc>
+  <priority>0.91</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/config/controllers</loc>
+  <priority>0.91</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/documentation</loc>
+  <priority>0.91</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/config/extensions</loc>
+  <priority>0.91</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/tutorial/config</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/config/i18n</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/config/extensions</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/documentation</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/internal/processing</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/internal/keywords</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/internal/functions</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/internal/library</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/config/cache</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/tutorial/plugins</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/tutorial/setup</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/tutorial/structure</loc>
+  <priority>0.89</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/features</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/tutorial</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/config</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/internal</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/tutorial/plugins</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/internal/library</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/internal/keywords</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/internal/processing</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/config/cache</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/tutorial/structure</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/tutorial/setup</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/internal/functions</loc>
+  <priority>0.87</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/internal</loc>
+  <priority>0.84</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/tutorial</loc>
+  <priority>0.84</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/config</loc>
+  <priority>0.84</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/contact</loc>
+  <priority>0.78</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/download</loc>
+  <priority>0.78</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/download</loc>
+  <priority>0.76</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/contact</loc>
+  <priority>0.76</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/features</loc>
+  <priority>0.76</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/</loc>
+  <priority>0.71</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/</loc>
+  <priority>0.69</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/error</loc>
+  <priority>0.74</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/pl/error</loc>
+  <priority>0.72</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/download/license.txt</loc>
+  <priority>0.66</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/documentation/otherfunctions</loc>
+  <priority>0.59</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/files</loc>
+  <priority>0.57</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/download/tinyweb.docs.zip</loc>
+  <priority>0.57</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/download/tinyweb.zip</loc>
+  <priority>0.57</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinyweb.qb.net.pl/en/documentation/functions</loc>
+  <priority>0.57</priority>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>

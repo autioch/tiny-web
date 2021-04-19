@@ -1,0 +1,52 @@
+.raid-group {
+    @extend .content-box;
+    float:left;
+    width:43.5%;
+    padding: 2%;
+    margin: 1%;
+    @media screen and (max-width:$screen-small){
+        float:none;
+        width:95%;
+    }
+
+}
+
+.raid-group-title{
+}
+
+.raid-role-title{
+    margin: 4% 0;
+}
+
+.raid-role{
+    display:inline-block;
+    vertical-align: top;
+    width:49%;
+    >ul>li{
+        @media screen and (max-width:$screen-small){
+            display:inline;
+        }       
+    }
+}
+
+.raid-class{
+    @include border;
+    @extend %display-table;
+    margin-top: 4%;
+    @media screen and (max-width: $screen-tiny){
+        display:none;
+    }
+}
+
+.raid-class-item{
+    display: table-cell;
+    text-align:center;
+    padding: 1% 0;
+    font-weight: bold; 
+    font-size: 0.9em;   
+}
+
+.raid-class-icon{
+    display:block;
+    margin: auto;
+}

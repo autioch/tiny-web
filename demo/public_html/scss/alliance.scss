@@ -1,0 +1,44 @@
+$images: '../images/';
+$wallpapers: '#{$images}wallpapers/';
+
+$website-bg-color: #124477;
+$website-bg: '#{$wallpapers}alliance.jpg';
+
+$box-bg-bottom: '#{$images}box-light-bottom.png';
+$box-bg-color: rgba(0,10,40,0.7);
+$box-bg-color-ie: rgb(0,10,40);
+$box-bg-top: '#{$images}box-light-top.png';
+$box-border-color: #aaa;
+$box-shadow-color: #aaf;
+$box-shadow-width:  5px;
+
+$input-border: #00AAFF;
+$table-border: #779;
+
+$highlight-color: #fff;
+$highlight-shadow: #000;
+$link-color: #fff;
+$link-active: #ECAE2B;
+$link-hover: #00AAFF;
+
+$error-color: #f00;
+$section-color: #ECAE2B;
+
+$text-color: #fff;
+$text-smaller: 0.7em;
+$text-inactive: #494949;
+
+
+@import 'layout/library';
+@import 'layout/layout';
+@import 'layout/about';
+@import 'layout/news';
+@import 'layout/progress';
+@import 'layout/addons';
+@import 'layout/raids';
+@import 'layout/recruitment';
+
+@import 'layout/presentation';
+
+
+

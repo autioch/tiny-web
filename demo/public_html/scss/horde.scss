@@ -1,0 +1,44 @@
+$images: '../images/';
+$wallpapers: '#{$images}wallpapers/';
+
+$website-bg-color: #fff;
+$website-bg: '#{$wallpapers}horde.jpg';
+
+$box-bg-bottom: '#{$images}box-light-bottom.png';
+$box-bg-color: rgba(0,0,0,0.6);
+$box-bg-color-ie: rgb(0,0,0);
+$box-bg-top: '#{$images}box-light-top.png';
+$box-border-color: #744;
+$box-shadow-color: #600;
+$box-shadow-width: 5px;
+
+$input-border: #FFAA00;
+$table-border: #444;
+
+$highlight-color: #fff;
+$highlight-shadow: #300;
+$link-color: #fff;
+$link-active: #c00;
+$link-hover: #fb0;
+
+$error-color: #d00;
+$section-color: #d00;
+
+$text-color: #fff;
+$text-smaller: 0.7em;
+$text-inactive: #494949;
+
+
+@import 'layout/library';
+@import 'layout/layout';
+@import 'layout/about';
+@import 'layout/news';
+@import 'layout/progress';
+@import 'layout/addons';
+@import 'layout/raids';
+@import 'layout/recruitment';
+
+@import 'layout/presentation';
+
+
+

@@ -1,0 +1,28 @@
+#layout-header{
+    @extend %clearfix; 
+    padding: 0.5em 3%;
+}
+
+.header-banner{
+    float: left;
+    >img{
+        display: block;
+    }
+}
+
+.lang-menu{
+    float: right;
+}
+
+.lang-item{
+    float: left;
+}
+
+.lang-link{
+    display:block;
+    padding: 6px;
+    >img{
+        display:block;
+        box-shadow: 0 0 3px $shadowColor;
+    }
+}

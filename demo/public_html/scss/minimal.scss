@@ -1,0 +1,44 @@
+$images: '../images/';
+$wallpapers: '#{$images}wallpapers/';
+
+$website-bg-color: #fff;
+$website-bg: '';
+
+$box-bg-bottom: '';
+$box-bg-color: #eee;
+$box-bg-color-ie: #eee;
+$box-bg-top: '';
+$box-border-color: #ccc;
+$box-shadow-color: #fff;
+$box-shadow-width: 0px;
+
+$input-border: #000;
+$table-border: #aaa;
+
+$highlight-color: #1266F1;
+$highlight-shadow: #eee;
+$link-color: #000;
+$link-active: #0df;
+$link-hover: #0df;
+
+$error-color: #f00;
+$section-color: #1266F1;
+
+$text-color: #000;
+$text-smaller: 0.7em;
+$text-inactive: #aaa;
+
+
+@import 'layout/library';
+@import 'layout/layout';
+@import 'layout/about';
+@import 'layout/news';
+@import 'layout/progress';
+@import 'layout/addons';
+@import 'layout/raids';
+@import 'layout/recruitment';
+
+@import 'layout/presentation';
+
+
+

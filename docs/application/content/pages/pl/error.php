@@ -1,0 +1,1 @@
+<p>Żądana strona nie istnieje. Przejdź do <?php echo get_link($routing['default'],'strony głównej'); ?>.</p>

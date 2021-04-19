@@ -1,0 +1,330 @@
+/* * * * * * * * * * * * * *  * * * * *  * * * * * * * * 
+  CSS applying to every page and/or repeatable content
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+ul,li,h3,h4,h5,img{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+html{
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:16px;
+
+    @media(min-width: $screen-large) {
+        font-size: 18px;
+    }    
+
+    @media (max-width: $screen-medium){
+        font-size: 14px;
+    }
+
+    @media (max-width: $screen-small){
+        font-size: 13px;
+    }
+}
+
+body{
+    @if str_length($website-bg) > 0 {
+        background:$website-bg-color url('#{$website-bg}') center top repeat-x fixed;
+    }  @else {
+        background: $website-bg-color;
+    }     
+    background-size: contain;
+    margin:0;
+    @media screen and (max-width:$screen-small){
+        background-attachment: scroll;
+    }      
+}
+
+#layout-wrapper{
+    width: 70%;
+    margin: auto;
+    @media (min-width: $screen-large){
+        width: 60%;
+    }
+    @media (max-width: $screen-medium){
+        width: 80%;
+    }
+
+    @media (max-width: $screen-small){
+        width: 90%;
+    }   
+
+
+    @media (max-width: $screen-tiny){
+        width: 100%;
+    }       
+
+}
+
+#banner-image{
+    width:26%;
+    margin:0 37%;
+
+}
+
+.priest{color:#FFFFFF;border-color:#FFFFFF;}
+.warlock{color:#9482C9;border-color:#9482C9;}
+.mage{color:#69CCF0;border-color:#69CCF0;}
+.rogue{color:#FFF569;border-color:#FFF569;}
+.druid{color:#FF7D0A;border-color:#FF7D0A;}
+.hunter{color:#ABD473;border-color:#ABD473;}
+.shaman{color:#0070DE;border-color:#0070DE;}
+.paladin{color:#F58CBA;border-color:#F58CBA;}
+.warrior{color:#C79C6E;border-color:#C79C6E;}
+.death{color:#C41F3B;border-color:#C41F3B;}
+.deathknight{color:#C41F3B;border-color:#C41F3B;}
+
+.class-icon-container {
+    width:16px;
+    height:16px;
+    display:inline-block;
+    overflow:hidden;
+    position: relative;
+    @media screen and (max-width: $screen-small) {
+        display: none;
+    }
+}
+
+.class-icon{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+
+.unknown-icon{left:0px;}
+.priest-icon{left:-80px;}
+.warlock-icon{left:-32px;}
+.mage-icon{left:-112px;}
+.rogue-icon{left:-64px;}
+.druid-icon{left:-144px;}
+.hunter-icon{left:-128px;}
+.shaman-icon{left:-48px;}
+.paladin-icon{left:-96px;}
+.warrior-icon{left:-16px;}
+.death-icon{left:-0px;}
+.deathknight-icon{left:-160px;}
+
+
+.class-icon.deathknight-icon{
+    left: -160px;
+}
+
+#banner{
+    text-align:center;
+}    
+
+@media screen and (max-width: $screen-tiny) {
+    #banner-image{
+        width:60%;
+        margin:2% 20%;      
+    }
+    #banner{
+        display: table-cell;
+    }    
+
+    #header{
+        display:table;
+    }
+    #menu-container{
+        width:50%;
+        padding: 0 10%;
+        display: table-cell;
+        vertical-align: middle;
+        margin-left:50%;
+    }
+
+    .class_small{
+        display:none;
+    }
+}
+
+
+#menu{
+    @extend %display-table;
+    @media screen and (max-width: $screen-tiny) {
+        display: none;
+    }
+}
+
+.menu-item{
+    display:table-cell;
+    border-left: solid 1px $box-border-color;
+    &:first-child{
+        border-left:0;
+    }
+}
+
+.menu-link{
+    @include text-shadow;
+    display:block;
+    text-align:center;
+    padding: 5% 0;
+    &.active{
+        @include text-shadow($link-active);
+    }
+
+    &:hover{
+        @include text-shadow($link-hover);
+    }    
+    @media screen and (min-width: $screen-large) {
+        font-size: 0.9em;
+    }
+}
+
+.tinynav { 
+    display: none;
+    width:100%;
+    border:0;
+    text-align:center;
+    margin:1% auto;
+    background: transparent;
+    color: $text-color;
+    @media screen and (max-width: $screen-tiny) {
+        display: block;
+    }
+}
+
+#content{
+    padding:3%;
+    color: $text-color;
+}
+
+.title{
+    text-align:left;
+}
+
+#footer-container{
+    @media screen and (max-width:$screen-tiny){
+        margin-bottom: 0;
+    }      
+}
+
+#footer{
+    @extend %display-table;
+}
+
+.footer-item{
+    @include text-shadow($text-color);
+    text-align:right;
+    display:table-cell;
+    padding: 1%;
+    &:first-child{
+        text-align: left;
+    } 
+    font-size: $text-smaller;
+    @media screen and (max-width:$screen-tiny){
+        display:block;
+        font-size:1em;
+        text-align: left;
+        margin:1%;
+    }      
+}
+
+.section-title{
+    font-size: 1em;
+    @include text-shadow($section-color);
+}
+
+.subsection-title{
+    @extend .section-title;
+    font-weight: normal;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+table{
+    @include border($table-border);
+    width:100%;
+    border-collapse: collapse;  
+    text-align:center;
+}
+
+td, th{
+    @include border($table-border);
+    background-color: $box-bg-color;
+}
+
+ol{
+    @media screen and (max-width: $screen-tiny) {
+        padding: 10%;
+    }    
+}
+
+.content-box{
+    @include border-radius;
+    @include box-shadow;
+    @include border; 
+    margin-bottom: 2%;
+    @if str_length($box-bg-top) > 0 {
+        background: $box-bg-color-ie url('#{$box-bg-top}') top left repeat-x;
+        background: $box-bg-color url('#{$box-bg-top}') top left repeat-x;
+    }  @else {
+        background: $box-bg-color-ie;
+        background: $box-bg-color;
+    } 
+
+    @media screen and (max-width:$screen-small){
+        border:0;
+    }  
+    @media screen and (max-width:$screen-tiny){
+        border-radius:0;
+        box-shadow:none;
+    }    
+}
+
+
+a {
+    @include text-shadow($link-color);
+    text-decoration: none;
+
+    &.active{
+        @include text-shadow($link-active);
+    }
+
+    &:hover{
+        @include text-shadow($link-hover);
+    }
+}
+
+.important-link{
+    border-bottom: solid 1px $link-color;
+}
+
+.clear{
+    clear:both;
+}
+
+.side-box{
+    float:right;   
+    @extend .content-box;
+    width: 35%;
+    padding: 1%;
+    margin-top: +1%;
+    margin-left: 2%;
+}
+
+.side-box-list{
+    margin: 2%;
+}
+
+.side-box-item{
+    font-size: 0.9em;
+    margin-bottom: 4%;
+}
+
+.side-box-title{
+    @extend .section-title;
+}
+
+
+/* * * * * * * * * * * * * *  * * * * *  * * * * * * * * 
+  General Layout End
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * */

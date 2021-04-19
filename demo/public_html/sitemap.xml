@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.wow.qb.net.pl/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.wow.qb.net.pl/o-nas</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.wow.qb.net.pl/newsy</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.wow.qb.net.pl/progres</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.wow.qb.net.pl/rajdy</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.wow.qb.net.pl/zasady</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.wow.qb.net.pl/addony</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.wow.qb.net.pl/rekrutacja</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.wow.qb.net.pl/zasady/rangi</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.wow.qb.net.pl/zasady/dkp</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.wow.qb.net.pl/rekrutacja/formularz</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

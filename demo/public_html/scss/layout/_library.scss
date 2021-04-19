@@ -1,0 +1,35 @@
+$screen-large: 1500px;
+$screen-normal: 1300px;
+$screen-medium: 960px;
+$screen-small: 800px;
+$screen-tiny: 520px;
+
+@mixin border-radius($radius: 0.2em){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+
+@mixin box-shadow($color:$box-shadow-color, $width: $box-shadow-width){
+    box-shadow: 0 0 $width $color;
+}
+
+@mixin text-shadow($color: $highlight-color, $shadow: $highlight-shadow){
+    color:$color;
+    text-shadow:0 0 2px $shadow;
+}
+
+@mixin border($color: $box-border-color){
+    border: solid 1px $color;
+}
+
+%display-table{
+    display:table;
+    width:100%;  
+    table-layout:fixed;
+}
+
+
+

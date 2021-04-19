@@ -1,0 +1,1 @@
+<p><?php echo $dict['reqruitment-thanks'] ?></p>

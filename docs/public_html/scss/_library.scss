@@ -1,0 +1,67 @@
+$screen-large: 1500px;
+$screen-normal: 1300px;
+$screen-medium: 960px;
+$screen-small: 800px;
+$screen-tiny: 600px;
+
+%clearfix {
+    &:after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin box-shadow($color:$box-shadow-color, $border: $box-border-color, $width: $box-shadow-width){
+    box-shadow: 0 0 $width $color;
+    border:solid 1px $border;
+}
+
+
+@mixin gradient-bg($from, $middle, $to){
+    /* fallback */ 
+    background-color: $middle; 
+    /* Safari 4-5, Chrome 1-9 */ 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), color-stop(0.5,$middle),  to($to)); 
+    /* Safari 5.1, Chrome 10+ */ 
+    background: -webkit-linear-gradient(top, $from, $middle 50%, $to); 
+    /* Firefox 3.6+ */ 
+    background: -moz-linear-gradient(top, $from, $middle 50%, $to); 
+    /* IE 10 */ 
+    background: -ms-linear-gradient(top, $from, $middle 50%, $to); 
+    /* Opera 11.10+ */ 
+    background: -o-linear-gradient(top, $from, $middle 50%, $to); 
+}
+
+%contentLink{
+    color: $fontColorHeader;
+    text-decoration: none;
+    font-size: 0.9em;
+    &:hover{
+        color: $fontColorHover;
+    }
+}
+
+%menuLink{
+    color: $fontColorMenuLink;
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold; 
+    text-decoration: none;
+    &:hover, &.active{
+        color: $fontColorHover;
+    }
+}
+
+%submenuLink{
+    color: $fontColorHeader;
+    display:block;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 0.25em 0;
+    padding-left: 20px;
+    text-decoration: none;
+    &:hover, &.active{
+        color: $fontColorHover;
+    }   
+}

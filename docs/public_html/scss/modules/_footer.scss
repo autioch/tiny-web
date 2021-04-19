@@ -1,0 +1,7 @@
+#layout-footer{
+    @extend %clearfix; 
+    color: $fontColorInactive;
+    font-size: 0.8em;
+    padding: 1em 3%;
+    text-align: right;
+}

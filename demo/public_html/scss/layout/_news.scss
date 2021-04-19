@@ -1,0 +1,27 @@
+$date-width: 17%;
+.news_date {
+    float:left;
+    width:$date-width;
+    text-align:left;
+    @media screen and (max-width:$screen-tiny){
+        float:right;
+        margin-left: 3%;
+        width:auto;
+    }     
+}
+
+.news_details{
+    margin-left: $date-width;
+    @media screen and (max-width:$screen-tiny){
+        margin: 0;
+    }      
+}
+
+.news_title{
+    @extend .section-title;
+}
+.news-image{
+    max-width: 100%;
+    margin: 1em 0;
+    width:auto;
+}

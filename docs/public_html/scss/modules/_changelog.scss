@@ -1,0 +1,13 @@
+.done{
+    color: $fontColorInactive;
+    >var{
+        color: $fontColorInactive;
+    }
+}
+
+.reject{
+    text-decoration:line-through;
+    >var{
+        text-decoration:line-through;
+    }
+}

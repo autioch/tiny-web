@@ -1,0 +1,81 @@
+.subsection-title{
+    font-size: 1em;
+    color: $fontColorHeader;
+}
+
+p>a, td a{
+    @extend %contentLink;
+    font-weight: bold;
+}
+
+.dash-list>li{
+    margin-left: 1em;
+    &:before{
+        content: "--";
+        letter-spacing: -2px;
+        display: inline-block;
+        margin-left: -1em;
+        font-size: 0.9em;
+        width: 1em;
+    }
+    >p{
+        margin: 0;  
+        display: inline;
+    }
+}
+
+var{
+    color: $fontColorHighlight;
+    font: normal 0.95em monospace;
+}
+
+pre{
+    color: $fontColorCode;
+    padding: 1em;
+    border: solid 1px $borderCode;
+    font-size: 0.9em;
+    background-color: $backgroundCode;
+    margin: 1em;
+    overflow: auto;
+}
+
+.img-right{
+    margin-left: 1em;
+    margin-bottom: 1em;
+    float: right;
+}
+
+/* tables */
+
+.toggle-button{
+    @extend %contentLink;
+    cursor: pointer;
+    margin-left: 1em;
+    @media screen and (max-width: $screen-tiny){
+        padding: 1em;
+    }
+}
+
+table{
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 0.9em;
+    width: 100%;
+}
+
+td,th{
+    border: solid 1px $borderTable;
+    vertical-align: top;
+    padding: 0.5em;
+}
+
+th{
+    background-color: $backgroundTable;
+}
+
+.warning{
+    color: $fontColorHighlight;
+    padding: 10px 20px;
+    background: url('../images/warning.png')  left 8px no-repeat;
+}
+

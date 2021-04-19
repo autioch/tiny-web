@@ -1,0 +1,24 @@
+#presentation-box{
+    background-color: $box-bg-color-ie;
+    border-top: solid 1px $box-border-color;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 98%;
+    padding: 0 1%;
+    color: $text-color;
+}
+
+#presentation-info{
+    margin-bottom: 0.5%;
+    text-align:center;
+}
+
+#theme-box{
+    text-align:center;
+    margin-bottom: 0.5%;
+}
+
+#layout-wrapper{
+    margin-bottom: 100px;
+}
